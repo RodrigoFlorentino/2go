@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <title>2GO</title>
+    
+  </head>
+  <body>
+
+    <input type="text" id="texto">
+    <div class="result"></div>
+
+    <script>
+      document.getElementById('texto').addEventListener('keyup', (event) => {
+        document.querySelector('.result').textContent = `${event.target.value}`;
+      });
+    </script>
+
+  </body>
+  
+
+</html>

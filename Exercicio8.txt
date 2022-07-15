@@ -1,0 +1,3 @@
+a) webservice baseado nos métodos HTTP;
+b) Protocolo de transferência;
+c) estilo de arquitetura que divide um sistema em componentes independentes menores;
